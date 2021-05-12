@@ -1,0 +1,57 @@
+!!Fonts
+URxvt.font: xft:monospace:size=11
+URxvt.letterspace: -1
+URxvt.lineSpace: 0
+
+!!Transparency NOT WORK
+!URxvt.inheritPixmap: 0
+!URxvt.tintColor: #1d1f21
+!URxvt.transparent: 1
+
+!Cursor
+URxvt.cursorBlink: true
+
+
+
+!!SCROLLBARR
+URxvt.scrollBar: 0
+
+!!Terminal.sexy_Custom
+! special
+*.foreground:   #eee0d4
+*.background:   #000000
+*.cursorColor:  #36c3f8
+
+! black
+*.color0:       #000000
+*.color8:       #71c8f5
+
+! red
+*.color1:       #15100a
+*.color9:       #26d2b8
+
+! green
+*.color2:       #2a221a
+*.color10:      #a1e53b
+
+! yellow
+*.color3:       #463a2d
+*.color11:      #ed97b4
+
+! blue
+*.color4:       #6a5847
+*.color12:      #7dcdf8
+
+! magenta
+*.color5:       #957e66
+*.color13:      #f7ca98
+
+! cyan
+*.color6:       #c8aa8a
+*.color14:      #fcc175
+
+! white
+*.color7:       #eee0d4
+*.color15:      #f99aba
+
+
