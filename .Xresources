@@ -1,57 +1,42 @@
-!!Fonts
-URxvt.font: xft:monospace:size=11
-URxvt.letterspace: -1
-URxvt.lineSpace: 0
-
-!!Transparency NOT WORK
-!URxvt.inheritPixmap: 0
-!URxvt.tintColor: #1d1f21
-!URxvt.transparent: 1
-
-!Cursor
+URxvt.font: xft:Monospace:size=10
+!URxvt.font: 9x15 
+URxvt.lineSpace: -1
+URxvt.letterSpace: 0
+URxvt.scrollBar: false
 URxvt.cursorBlink: true
+URxvt.saveLines: 3000
+URxvt.urgentOnBell: true
+!URxvt.transparent: true
 
+!special
+*.background:    #000000
+*.foreground:    #ffffff
+*.cursorColor:   #ababab
 
+!Black
+*.color0:    #2e3436 
+*.color8:    #555753
 
-!!SCROLLBARR
-URxvt.scrollBar: 0
+!red
+*.color1:    #a31604
+*.color9:    #c60001
 
-!!Terminal.sexy_Custom
-! special
-*.foreground:   #eee0d4
-*.background:   #000000
-*.cursorColor:  #36c3f8
+!green
+*.color2:    #447241
+*.color10:   #27a343
 
-! black
-*.color0:       #000000
-*.color8:       #71c8f5
+!yellow
+*.color3:    #c1951a
+*.color11:   #d5a30e
 
-! red
-*.color1:       #15100a
-*.color9:       #26d2b8
+!blue
+*.color4:    #425387
+*.color12:   #4a5a8d
 
-! green
-*.color2:       #2a221a
-*.color10:      #a1e53b
+!magneta
+*.color5:    #965d98
+*.color13:   #893c8c
 
-! yellow
-*.color3:       #463a2d
-*.color11:      #ed97b4
-
-! blue
-*.color4:       #6a5847
-*.color12:      #7dcdf8
-
-! magenta
-*.color5:       #957e66
-*.color13:      #f7ca98
-
-! cyan
-*.color6:       #c8aa8a
-*.color14:      #fcc175
-
-! white
-*.color7:       #eee0d4
-*.color15:      #f99aba
-
-
+!blue
+*.color6:    #06989a
+*.color14:   #12bccb
