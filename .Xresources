@@ -1,4 +1,24 @@
-URxvt.font: xft:Monospace:size=10
+!!Extensions
+URxvt.perl-ext-common: selection-to-clipboard,resize-font
+
+!!Tab_managment
+URxvt.tabbed.reopen-on-close: yes
+!Tab_switch_keybinds
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbed:prev_tab
+
+!Cut_paste_keybinds
+URxvt.clipboard.autocopy: true
+URxvt.keysym.$mod-c: perl:clipboard:copy
+URxvt.keysym.$mod-v: perl:clipboard:paste
+
+!Font_keybinds
+URxvt.keysym.C-Down: resize-font:smaller
+URxvt.keysym.C-Up: resize-font:bigger
+
+
+URxvt.font: xft:Monospace:size=12
 !URxvt.font: 9x15 
 URxvt.lineSpace: -1
 URxvt.letterSpace: 0
@@ -6,7 +26,16 @@ URxvt.scrollBar: false
 URxvt.cursorBlink: true
 URxvt.saveLines: 3000
 URxvt.urgentOnBell: true
-!URxvt.transparent: true
+
+!!Transparency
+URxvt.transparent: 1
+!!True
+URxvt.depth: 32
+URxvt.background: [90]#000000 
+!!Native
+URxvt*inhertPixmap: true
+!Shading 0-99 darkens 101-200 lightens
+URxvt*shading: 5 
 
 !special
 *.background:    #000000
